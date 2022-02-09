@@ -18,7 +18,7 @@ function arrayLoop() {
     countNumber++;
   } else {
     array.unshift(countNumber);
-    array.length = 9;
+    array.length = 9; //truncate to 9 elements = the length only goes up to 9
     console.log(array);
     countNumber++;
   }
